@@ -11,9 +11,11 @@
 
 .header:last-child h1 {
     padding: 0 50px;
+    margin-top: 5px;
     color: var(--VeryDarkBlue);
     font-weight: 700;
     margin-bottom: 0;
+    font-size: 2rem;
 }
 .header:last-child p {
     padding: 0 50px;
@@ -75,14 +77,14 @@
 }
 
 .header:last-child h1 {
-    padding: 0 0;
     color: var(--VeryDarkBlue);
     font-weight: 700;
-    font-size: 5rem;
+    font-size: 4rem;
+    padding: 0;
     margin-bottom: 0;
 }
 .header:last-child p {
-    width: 80%;
+    width: 85%;
     padding: 0 0;
     margin:10px 0;
     color: var(--GrayishViolet);
