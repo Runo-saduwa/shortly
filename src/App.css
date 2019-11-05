@@ -1,3 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  font-family: var(--poppins);
+}
+
 :root {
   /* Primary colors */
     --Cyan: hsl(180, 66%, 49%);
@@ -19,3 +27,4 @@
    
   
   }
+
