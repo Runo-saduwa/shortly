@@ -1,20 +1,18 @@
 .header {
     width: 100%;
+    margin-bottom: 100px;
 }
 .first {
     max-width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .illustration {
     width: 480px;
-    overflow: hidden;
-    
+    overflow-x: hidden;
 }
-
 .header:last-child {
     text-align: center;
 }
-
 .header:last-child h1 {
     padding: 0 50px;
     margin-top: 5px;
@@ -28,7 +26,6 @@
     margin:10px 0;
     color: var(--GrayishViolet);
     font-size: 14px;
-   
 }
 .header:last-child button {
     border: none;
@@ -39,11 +36,10 @@
     color: var(--pureWhite);
     font-weight: 700;
     outline: none;
-   
 }
-
 @media screen and (min-width: 1440px) {
    .header {
+       min-height: 50vh;
        display: grid;
        grid-template-areas: 'intro image';
        grid-template-columns: 1fr 1fr;
@@ -57,18 +53,14 @@
    .illustration{
        margin-top: 50px;
        width: 115%;
-   
    }
    .header:last-child {
     text-align: left;
 }
-
-
 .second div {
     width:70%;
     margin-left: 20%;
     margin-top:16%;
-   
 }
 .header:last-child button {
     border: none;
@@ -78,9 +70,7 @@
     font-size: 16px;
     color: var(--pureWhite);
     margin-top: 20px;
-   
 }
-
 .header:last-child h1 {
     color: var(--VeryDarkBlue);
     font-weight: 700;
