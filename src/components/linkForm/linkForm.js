@@ -1,14 +1,15 @@
 import React from 'react';
-import './linkForm.css'
+import './linkForm.css';
 
 const LinkForm = () => {
-    return (
- 
-         <form className="form">
-         <input type="text" name="link" placeholder="shorten a link here..."/>
-         <button className="formButton">shorten it!</button>
-        </form>
-    )
-}
+	return (
+		<React.Fragment>
+			<form className="form">
+				<input className="input" type="text" name="link" placeholder="shorten a link here..." />
+				<input type="button" className="formButton" value="shorten it!"/>
+			</form>
+		</React.Fragment>
+	);
+};
 
 export default LinkForm;

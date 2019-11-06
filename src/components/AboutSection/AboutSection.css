@@ -1,21 +1,7 @@
-.aboutSection {
-    position: relative;
-    background-color: #ccc;
-    height: 100px;
-    padding: 50px 0px;
-}
-
-.about {
-    position: absolute;
-    width: 100%;
-    top:0;
-    min-height: 100px;
-    background: #fff
-}
 
 .aboutContent {
     min-height:100px;
-    background:#ccc;
+    background:var(--Gray);
     margin: 0;
 
     /* padding: 100px; */
