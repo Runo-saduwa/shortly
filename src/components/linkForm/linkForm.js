@@ -6,7 +6,7 @@ const LinkForm = () => {
 		<React.Fragment>
 			<form className="form">
 				<input className="input" type="text" name="link" placeholder="shorten a link here..." />
-				<input type="button" className="formButton" value="shorten it!"/>
+				<button className="formButton">shorten it!</button>
 			</form>
 		</React.Fragment>
 	);
