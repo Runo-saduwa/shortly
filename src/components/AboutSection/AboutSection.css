@@ -1,4 +1,38 @@
 .aboutSection {
-    background-color: var(--Gray);
-    height: 500px;
+    position: relative;
+    background-color: #ccc;
+    height: 100px;
+    padding: 50px 0px;
 }
+
+.about {
+    position: absolute;
+    width: 100%;
+    top:0;
+    min-height: 100px;
+    background: #fff
+}
+
+.aboutContent {
+    min-height:100px;
+    background:#ccc;
+    margin: 0;
+
+    /* padding: 100px; */
+}
+.aboutContent h1 {
+    color: var(--VeryDarkBlue);
+    padding-top: 50px;
+    margin: 0;
+    font-size: 1.5rem;
+}
+.aboutContent p {
+    font-size: 1rem;
+    color: #333;;
+}
+
+ .aboutContent .aboutHeaders {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+} 
