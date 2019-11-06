@@ -1,8 +1,14 @@
 .header {
     width: 100%;
 }
+.first {
+    max-width: 100%;
+    overflow: hidden;
+}
 .illustration {
-    width: 138%;
+    width: 480px;
+    overflow: hidden;
+    
 }
 
 .header:last-child {
@@ -15,13 +21,13 @@
     color: var(--VeryDarkBlue);
     font-weight: 700;
     margin-bottom: 0;
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 .header:last-child p {
     padding: 0 50px;
     margin:10px 0;
     color: var(--GrayishViolet);
-    font-size: 16px;
+    font-size: 14px;
    
 }
 .header:last-child button {
@@ -38,7 +44,6 @@
 
 @media screen and (min-width: 1440px) {
    .header {
-       height: 70vh;
        display: grid;
        grid-template-areas: 'intro image';
        grid-template-columns: 1fr 1fr;
@@ -52,7 +57,7 @@
    .illustration{
        margin-top: 50px;
        width: 115%;
-       /* margin-right: -240px; */
+   
    }
    .header:last-child {
     text-align: left;
