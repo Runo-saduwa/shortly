@@ -5,7 +5,7 @@
      display: none;
 }
 .navbarContainer {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     justify-content:space-between;
@@ -60,6 +60,9 @@ i {
 }
 /* Desktop Styles */
 @media screen and (min-width: 1440px) {
+    .navbarContainer {
+        width: 80%;
+    }
     .hamburger{
         display: none;
     }
@@ -102,10 +105,6 @@ i {
     .signUpDesktop a {
         color:var(--pureWhite) !important;
     }
-  
-
-
- 
 }
 
 
