@@ -4,6 +4,8 @@ import NavBar from './components/NavBar/NavBar';
 import Hero from './components/Hero/Hero';
 import AboutSection from './components/AboutSection/AboutSection';
 import LinkSection from './components/LinkSection/LinkSection';
+import PreFooter from './components/PreFooter/PreFooter';
+import Footer from './components/Footer/Footer';
 import './App.css';
 
 function App() {
@@ -14,6 +16,8 @@ function App() {
 				<Hero/>
 				<LinkSection/>
 				<AboutSection/>
+				<PreFooter/>
+				<Footer/>
 			</Fragment>
 		</div>
 	);

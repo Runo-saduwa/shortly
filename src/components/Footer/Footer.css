@@ -1,0 +1,47 @@
+footer {
+    background-color: var(--VeryDarkBlue);
+    color: var(--pureWhite);
+    text-align: center;
+    padding: 50px 0;
+}
+
+
+h1 {
+  font-size: 1rem;
+  margin-bottom: 25px;
+}
+.logoContainer {
+    margin-bottom: 50px;
+}
+ul {
+    margin: 20px 0;
+    padding: 0;
+}
+
+ul li a {
+    color: var(--GrayishViolet);
+    text-decoration: none;
+}
+
+ul li {
+    list-style-type: none;
+    margin: 10px 0;
+}
+.socials img{
+    width:25px;
+    margin: 0 8px;
+}
+
+
+@media screen and (min-width: 1440px) {
+   .footer {
+       display: grid;
+       grid-template-columns: 5fr 2fr 2fr 2fr 4fr;
+       text-align: left;
+       padding: 50px 50px;
+   }
+
+   ul {
+    margin-top: 20px;
+}
+}

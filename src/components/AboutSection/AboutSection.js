@@ -28,6 +28,7 @@ const data = [
 ];
 
 const AboutSection = (props) => {
+	// const classes = ['spec__item', `spec__item-${item.id}`]
 	return (
 		<React.Fragment>
 			<div className="aboutContent">
@@ -39,7 +40,7 @@ const AboutSection = (props) => {
 					<div className="spec__line"></div>
 					{data.map((item) => {
 						return (
-							<div className="spec__item" key={item.id}>
+							<div className={['spec__item', `spec__item-${item.id}`].join(' ')} key={item.id}>
 								<div className="spec__item-logo">
 									<img src={item.img} alt={item.title}/>
 								</div>

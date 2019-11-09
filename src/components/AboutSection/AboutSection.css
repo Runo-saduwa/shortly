@@ -1,11 +1,9 @@
 
 .aboutContent {
     min-height:100px;
-    background:var(--Gray);
+    background:#EFF1F7;
     margin: 0;
-    padding-bottom:100px;
-
-    /* padding: 100px; */
+    padding-bottom:50px;
 }
 .aboutContent h1 {
     color: var(--VeryDarkBlue);
@@ -22,7 +20,7 @@
     width: 80%;
     margin: 0 auto;
     text-align: center;
-    padding-bottom: 100px;
+    
 }
 
 
@@ -30,13 +28,13 @@
     width: 90%;
     position: relative;
     margin: 0 auto;
-    /* display: flex; */
 }
 
 .spec__item {
     position: relative;
     background: var(--pureWhite);
-    margin-top: 100px;
+    margin-top: 80px;
+    border-radius: 5px;
 }
 
 
@@ -90,6 +88,29 @@
 }
 
 @media screen and (min-width: 1440px) {
+    .aboutContent h1 {
+        color: var(--VeryDarkBlue);
+        padding-top: 50px;
+        margin: 0;
+        font-size: 2.3rem;
+    }
+    .aboutContent .aboutHeaders p {
+        font-size: 1.2rem;
+        color: #333;
+        width:50%;
+        margin: 10px auto;
+    }
+   
+    .aboutContent .aboutHeaders {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 100px;
+    }
+    
+    .aboutContent {
+        padding-bottom:150px;
+    }
     .spec__container {
         position: relative;
         width: 80%;
@@ -103,10 +124,21 @@
         margin:0 1%;
         background: var(--pureWhite);
         padding: 30px;
+        border-radius: 5px;
     }
+    .spec__item-12 {
+        top: 30px;
+    }
+    .spec__item-13 {
+        top: 60px;
+    }
+    /* .spec__item-13 {
+        margin-top: 50px;
+    } */
 
     .spec__content {
         padding: 30px 0 0 0;
+        text-align: left;
     }
     .spec__content h1 {
         color: var(--VeryDarkBlue);
@@ -116,19 +148,25 @@
     .spec__content p {
         color: var(--GrayishViolet);
         font-weight: 700;
+        line-height: 1.5;
 
     }
+   
 
     .spec__item-logo {
       display: flex;
       position: absolute;
       top:-50px;
+      left: 30px;
       background: var(--VeryDarkBlue);
        width: 100px;
        height: 100px;
        justify-content: center;
        align-items: center;
        border-radius: 100%;
+       right: 0;
+       margin-left: 0;
+       margin-right: 0;
 
     }
 
@@ -144,7 +182,7 @@
         left:10%;
         top: 50%;
         width:80%;
-        height: 10px;
+        height: 5px;
         background-color: cyan;
         
     }

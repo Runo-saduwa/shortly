@@ -5,12 +5,12 @@
     position: absolute;
     width:100%;
     height: 100px;
-    background: var(--Gray);
+    background: #EFF1F7;
     z-index: -1;
     bottom: 0;
 }
 .links {
-    background: var(--Gray);
+    background: #EFF1F7;
 }
 
 @media screen and (min-width: 1440px) {
