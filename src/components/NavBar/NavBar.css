@@ -12,17 +12,18 @@
 }
 img {
  margin: 15px 0 0 0;
- width: 100px;
+ width: 80px;
 }
 i {
-    font-size: 2rem;
+    font-size: 1.55rem;
     margin: 10px 0 0 0;
     color: var(--Gray);
+    
 }
 .mobileNav {
     background-color: var(--DarkViolet);
     width: 80%;
-    margin: 10px auto;
+    margin: 2px auto;
     border-radius: 12px;
 }
 .mobileNav .mobileNavContainer {
