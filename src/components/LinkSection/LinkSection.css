@@ -53,6 +53,8 @@
 }
 .shortUrl {
     padding: 5px 20px;
+    color: var(--Cyan);
+    font-weight: 700;
 }
 
 .shortUrl a {
@@ -87,8 +89,8 @@
     }
     .longUrl {
     
-        max-width:600px;
-        overflow: hidden;
+        max-width:400px;
+        overflow-x: hidden;
         padding: 0;
        display: inline;
     }
@@ -106,5 +108,6 @@
     .shortUrl a {
        margin-right: 10px;
         font-size: 18px;
+        color: var(--Cyan);
     }
 }
