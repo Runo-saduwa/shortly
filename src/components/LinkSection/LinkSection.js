@@ -20,7 +20,7 @@ const LinkSection = () => {
 	const postUrl = (e) => {
 		e.preventDefault();
 		axios
-			.post('http://localhost:5000/api/url/shorten/', {
+			.post('https://shortly-backend.herokuapp.com/api/url/shorten/', {
 				longUrl: link
 			})
 			.then(function(response) {
